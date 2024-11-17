@@ -171,3 +171,36 @@ footer p {
     font-size: 20px;
     color: #ed5d34;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 400px) {
+
+    .card__container {
+        display: block;
+    }
+
+    .card__wrapper {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .card__front p {
+        font-size: 20px;
+    }
+
+    .card__front .card__price {
+        font-size: 30px;
+    }
+
+    .card__front .arrow-icon {
+        bottom: 35px;
+        right: 20px;
+    }
+
+    .card__back a {
+        text-align: center;
+        line-height: 1.5;
+    }
+}
